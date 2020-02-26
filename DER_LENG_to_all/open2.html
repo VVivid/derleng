@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Der Leng Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap"
+    rel="stylesheet"
+  />
+  <script src="javascript.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dangrek|Finger+Paint|Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Concert+One|Merienda|Orbitron|Patrick+Hand|Poiret+One|Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="open2.css">
+  </head>
+  <body>
+    <div  id="top">
+      <img src="./Der Leng.png" class="img" />
+      <i onclick="button()" class="fa fa-user-circle-o" aria-hidden="true"></i>
+    </div>
+      <ul>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <i class="fa fa-home" aria-hidden="true"></i>
+            </div>
+            <div class="name"><span data-text="Home">Home</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-paper-plane" aria-hidden="true"></i>
+              <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </div>
+            <div class="name"><span data-text="Destination">Destination</span></div>
+            
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-cutlery" aria-hidden="true"></i>
+              <i class="fa fa-cutlery" aria-hidden="true"></i>
+            </div>
+            <div class="name"><span data-text="Food">Food</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-book" aria-hidden="true"></i>
+              <i class="fa fa-book" aria-hidden="true"></i>
+            </div>
+            <div class="name"><span data-text="Booking">Booking</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+            <div class="name"><span data-text="Store">Store</span></div>
+          </a>
+        </li>
+      </ul>
+    <div class="w3-content w3-display-container" style="max-width:1920px">
+      
+      <img class="mySlides" src="./view 4.jpg" style="width:100%" />
+      <img class="mySlides" src="./view 3.jpg" style="width:100%" />
+      <img class="mySlides" src="./view 2.jpg" style="width:100%" />
+      <div id = "login-form">
+        <div class="left-box">
+            <h1>Sign Up</h1>
+
+                <input type="text" name="username" placeholder="Username"/>
+                <input type="email" name="email" placeholder="Email"/>
+                <input type="password" name="passowrd" placeholder="Passowrd">
+                <input type="password" name="re-password" placeholder="Re-password">
+                <input type="submit" name="signup-buttom" value="Sign Up">
+        </div>
+        <div class="right-box">
+                <span class="signinwith">Sign in with<br>Social Network</span>
+                <button class="social facebook">Log in with Facebook</button>
+                <button class="social twitter">Log in with Twitter</button>
+                <button class="social google">Log in with Google+</button>
+
+
+        </div>
+        <div class="or">
+            OR
+        </div>
+      <div
+        class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+        style="width:100%"
+      >
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">
+          &#10094;
+        </div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
+          &#10095;
+        </div>
+        <span
+          class="w3-badge demo w3-border w3-transparent w3-hover-white"
+          onclick="currentDiv(1)"
+        ></span>
+        <span
+          class="w3-badge demo w3-border w3-transparent w3-hover-white"
+          onclick="currentDiv(2)"
+        ></span>
+        <span
+          class="w3-badge demo w3-border w3-transparent w3-hover-white"
+          onclick="currentDiv(3)"
+        ></span>
+      </div>
+    </div>
+    <div class="search">
+        <input type="text" id= "search" name="search" placeholder="Let's Go Somewhere..." />
+        <input  type="submit" onclick="search()" name="" value="Search"  />
+    </div>
+    </div>
+
+    <div class="divthom">
+      <a href="Phnom_Penh.html"><div class="pp"><p id="t-pp">Phnom Penh</p></div></a>
+      <div class="sr"><p id="t-sr">Siem Reap</p></div>
+      <div class="btb"><p id="t-btb">Battambang</p></div>
+      <div class="pshn"><p id="t-pshn">Preah Sihonouk</p></div>
+      <div class="kp"><p id="t-kp">Kampot</p></div>
+      <div class="kt"><p id="t-kt">Kratié</p></div>
+      <div class="kpch"><p id="t-kpch">Kampong Chhnang</p></div>
+      <div class="kpc"><p id="t-kpc">Kampong Cham</p></div>
+      <div class="kps"><p id="t-kps">Kampong Speu</p></div>
+      <div class="kpt"><p id="t-kpt">Kampong Thom</p></div>
+      <div class="kd"><p id="t-kd">Kandal</p></div>
+      <div class="kep"><p id="t-kep">Kep</p></div>
+      <div class="btmc"><p id="t-btmc">Banteay Meanchey</p></div>
+      <div class="pvh"><p id="t-pvh">Preah Vihea</p></div>
+      <div class="kk"><p id="t-kk">Koh Kong</p></div>
+      <div class="pv"><p id="t-pv">Prey Veng</p></div>
+      <div class="ps"><p id="t-ps">Pursat</p></div>
+      <div class="st"><p id="t-st">Steung Treng</p></div>
+      <div class="svr"><p id ="t-svr">Svay Rieng</p></div>
+      <div class="rtnkr"><p id="t-rtnkr">Ratana Kiri</p></div>
+      <div class="tk"><p id="t-tk">Takéo</p></div>
+      <div class="odmc"><p id="t-odmc">Oddar Meanchey</p></div>
+      <div class="mdkr"><p id="t-mdkr">Mondulkiri</p></div>
+      <div class="pl"><p id="t-pl">Pailin</p></div>
+      <div class="tbk"><p id="t-tbk">Tboung Khmum</p></div>
+    </div>
+    <div class="buttom"><p class="t-buttom">Copyright &copy;</p></div>
+    <script>
+      var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs((slideIndex += n));
+}
+
+function currentDiv(n) {
+  showDivs((slideIndex = n));
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = x.length;
+  }
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " w3-white";
+}
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {
+    myIndex = 1;
+  }
+  x[myIndex - 1].style.display = "block";
+  setTimeout(carousel, 2500);
+}
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+/* Background:url ('image.jpg');
+Background-repeat
+Background-size
+Background-position
+Background-attachment
+shorthand syntax */
+
+div {
+  min-height: 100vh;
+  color: tomato;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img {
+  background: url("./Der\ Leng\ Background\ Finalize.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-img {
+  background: url("./pexels-photo-3347244.jpeg");
+  /* background-repeat: repeat;
+  background-repeat: no-repeat; 
+  background-repeat: repeat-x
+  background-repeat: repeat-y
+  background-repeat: space;
+  background-repeat: round*/
+  /*background-repeat: no-repeat;
+  background-position: center;
+  background-position: 20% 50%;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("./Der\ Leng\ Background\ copy.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

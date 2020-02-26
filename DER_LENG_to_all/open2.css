@@ -1,0 +1,1078 @@
+    body {
+      background: rgba(225, 165, 0, 0.4);
+      position: relative;
+      margin: auto;
+    }
+    #top i {
+        cursor: pointer;
+        animation-name: shake;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+    }
+    /* --------------- Search button------------------- */
+
+    .search {
+
+      position: absolute;
+      z-index: 2;
+      margin-top: 100px;
+      left: 50%;
+      width: 500px;
+      transform: translate(-50%, -50%);
+      font-weight: bold;
+      font-family: "Indie Flower", cursive;
+    }
+
+    .search input {
+      position: relative;
+      display: inline-block;
+      font-size: 20px;
+      box-sizing: border-box;
+      transition: 0.5s;
+    }
+    .search input[type="text"] {
+      background: rgba(255, 229, 153, 0.7);
+      width: 340px;
+      height: 50px;
+      border: none;
+      outline: none;
+      padding: 0 25px;
+      border-radius: 25px 0 0 25px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+    .search input[type="submit"] {
+      position: relative;
+      border-radius: 0 25px 25px 0;
+      width: 150px;
+      height: 50px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background: #FFC107;
+      color: #fff;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+    .search input[type="submit"]:hover {
+      background: #FF5722;
+    }
+    
+    /* ------------------------ */
+    .mySlides {
+      cursor: pointer;
+      transition: 0.2s;
+      top: 0;
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+      cursor: pointer;
+    }
+
+    .w3-badge {
+      height: 13px;
+      width: 13px;
+      padding: 0;
+    }
+    #top {
+      z-index: 0;
+      float: left;
+      width: 100%;
+      height: 120px;
+      background:url(./frame.jpg);
+      margin-bottom: 0px;
+    }
+    .img {
+      width: 100px;
+      margin-top: 0.5%;
+      margin-left: 48%;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .img:hover {
+      transform: scale(1.1);
+    }
+    .fa-user-circle-o {
+      position: relative;
+      float: right;
+      font-size: 50px;
+      margin-right: 20px;
+      margin-top: 50px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.3s;
+      z-index: 1;
+    }
+    .fa-user-circle-o:hover {
+      transform: scale(1.2);
+      color: tomato;
+    }
+    ul {
+      float: left;
+      width: 100%;
+      background:url(./frame.jpg);
+      font-size: 15px;
+      position: sticky;
+      top: 0px;
+      left: 50%;
+      margin: 0;
+      padding: 5px 0;
+     
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      text-align: center;
+      display: inline-flex;
+    }
+    ul li {
+      list-style: none;
+      text-align: center;
+      display: block;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    ul li a {
+      text-decoration: none;
+      padding: 0px 149px;
+      display: block;
+    }
+    ul li:last-child {
+      border-right: none;
+    }
+    ul li a .icon {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      background:;
+      overflow: hidden;
+      margin: 0 auto 5px;
+    }
+    ul li a .icon .fa {
+      width: 100%;
+      height: 100%;
+      line-height: 50px;
+      font-size: 30px;
+      transition: 0.5s;
+      color: black;
+    }
+    ul li a .icon .fa:last-child
+    {
+      color: black;
+    }
+    ul li a:hover .icon .fa 
+    {
+      transform: translateY(-100%);
+    }
+    ul li a .name {
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: ;
+      position:relative;
+      height: 30px;
+      width: 100%;
+      display: block;
+      overflow: hidden;
+      color: black;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .name:hover {
+      transform: scale(1.2);
+      color:black;
+    }
+
+    
+    #login-form input[name= "username"] {
+        display: block;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      padding: 4px;
+      width: 220px;
+      height: 32px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #aaa;
+      font-family: sans-serif;
+      font-weight: 15px;
+      transition: 0.2s ease;
+      }
+    #login-form input[type="submit"] {
+      position: relative;
+      border-radius: 0 25px 25px 0;
+      width: 150px;
+      height: 50px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background: #ffc107;
+      color: #fff;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+    #login-form input[type="submit"]:hover {
+      background: #ff5722;
+    }
+
+    .pp {
+      width: 90%;
+      top: 100px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      margin: auto;
+      background-color: rgba(225, 165, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 200px;
+      background-image: url("./pp 200px.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+    .pp:hover {
+      transform: scale(1.1);
+    }
+    .sr {
+      width: 90%;
+
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(255, 0, 165, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./sr.png");
+      background-position: right;
+      background-repeat: no-repeat;
+      transition: 0.5s;
+    }
+    .sr:hover {
+      transform: scale(1.1);
+    }
+    .btb {
+      width: 90%;
+      background-color: rgba(0, 255, 165, 0.3);
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./Battambang.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .btb:hover {
+      transform: scale(1.1);
+    }
+    .pshn {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 255, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./pshn.png");
+      background-position: right;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .pshn:hover {
+      transform: scale(1.1);
+    }
+    .kp {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 0, 255, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kp.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .kp:hover {
+      transform: scale(1.1);
+    }
+    .kt {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(225, 165, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kratie.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .kt:hover {
+      transform: scale(1.1);
+    }
+    .kpch {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(255, 0, 165, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kampongchnang.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      transition: 0.5s;
+    }
+    .kpch:hover {
+      transform: scale(1.1);
+    }
+    .kpc {
+      width: 90%;
+      background-color: rgba(0, 255, 165, 0.3);
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kampongcham.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .kpc:hover {
+      transform: scale(1.1);
+    }
+    .kps {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 255, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kampongspeu.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .kps:hover {
+      transform: scale(1.1);
+    }
+    .kpt {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 0, 255, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kampongthom.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .kpt:hover {
+      transform: scale(1.1);
+    }
+    .kd {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(225, 165, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kandal.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .kd:hover {
+      transform: scale(1.1);
+    }
+    .kep {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(255, 0, 165, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kep.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      transition: 0.5s;
+    }
+    .kep:hover {
+      transform: scale(1.1);
+    }
+    .btmc {
+      width: 90%;
+      background-color: rgba(0, 255, 165, 0.3);
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./banteaymeanchey.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .btmc:hover {
+      transform: scale(1.1);
+    }
+    .pvh {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 255, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./preahvihea.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .pvh:hover {
+      transform: scale(1.1);
+    }
+    .kk {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 0, 255, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./kohkong.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .kk:hover {
+      transform: scale(1.1);
+    }
+    .ps {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(225, 165, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./pursat.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .ps:hover {
+      transform: scale(1.1);
+    }
+    .pv {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(255, 0, 165, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./preyveng.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      transition: 0.5s;
+    }
+    .pv:hover {
+      transform: scale(1.1);
+    }
+    .svr {
+      width: 90%;
+      background-color: rgba(0, 255, 165, 0.3);
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./svayrieng.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .svr:hover {
+      transform: scale(1.1);
+    }
+    .st {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 0, 255, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./steungtreng.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .st:hover {
+      transform: scale(1.1);
+    }
+    .rtnkr {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 255, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./ratanakiri.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .rtnkr:hover {
+      transform: scale(1.1);
+    }
+
+    .tk {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(225, 165, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./takeo.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .tk:hover {
+      transform: scale(1.1);
+    }
+    .odmc {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(255, 0, 165, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./oddarmeanchey.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      transition: 0.5s;
+    }
+    .odmc:hover {
+      transform: scale(1.1);
+    }
+    .pl {
+      width: 90%;
+      background-color: rgba(0, 255, 165, 0.3);
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./pailin.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .pl:hover {
+      transform: scale(1.1);
+    }
+    .tbk {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 255, 0, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./tboungkhmum.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .tbk:hover {
+      transform: scale(1.1);
+    }
+    .mdkr {
+      width: 90%;
+      margin: auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      background-color: rgba(165, 0, 255, 0.3);
+      height: 200px;
+      border-radius: 20px;
+      margin-top: 40px;
+      background-image: url("./mondulkiri.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .mdkr:hover {
+      transform: scale(1.1);
+    }
+
+    #t-pp {
+      margin-top: 100px;
+      color: white;
+      text-align:right;
+      margin-right: 20px;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-sr {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-btb {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-pshn {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: rgba(255, 255, 255);
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kp {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kt {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kpch {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kpc {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kps {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kpt {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kd {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kep {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-btmc {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-kk {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-pvh {
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-ps {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-pv {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-svr {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-st {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-rtnkr {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-tk {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-st {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-rtnkr {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 100px;
+      cursor: pointer;
+    }
+    #t-tk {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-odmc {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-pl {
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-tbk {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    #t-mdkr {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      color: white;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      font-family: "Pacifico", cursive;
+      font-size: 120px;
+      cursor: pointer;
+    }
+    .buttom {
+      width: 100%;
+      height: 120px;
+      background: url(./frame.jpg);
+      margin-top: 100px;
+    }
+    .t-buttom {
+      text-align: center;
+      font-size: 15px;
+      position: relative;
+      top: 80px;
+    }
+    a{
+      text-decoration: none;
+    }
+
+    /*.pp1 {
+          margin-left: 40px;
+        }*/
+
+
+
+        @keyframes shake {
+          0% {left: 0}
+          1% {left: -3px}
+          2% {left: 5px}
+          3% {left: -8px}
+          4% {left: 8px}
+          5% {left: -5px}
+          6% {left: 3px}
+          7% {left: 0}
+        }
+
+        #login-form 
+        {
+            /* z-index: 2; */
+            position: relative;
+            top: -600px;
+            margin: auto; 
+            width: 600px;
+            height: 400px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+            display: none;
+            animation-name: shake;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+        }
+        .left-box{
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            padding: 40px;
+            width: 300px;
+            height: 400px;
+        }
+        #left-box h1{
+            margin: 0 0 20px 0;
+            font-weight: 300;
+            font-size: 28px;
+        }
+        #login-form input[type="text"],
+        #login-form input[type="password"],
+        #login-form input[type="email"]
+        {
+            display: block;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            padding: 4px;
+            width: 220px;
+            height: 32px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #aaa;
+            font-family: sans-serif;
+            font-weight: 15px;
+            transition: 0.2s ease;
+        }
+        #login-form input[type="submit"]
+        {
+            margin-bottom: 28px;
+            width: 120px;
+            height: 32px;
+            background: #f44336;
+            border: none;
+            border-radius: 2px;
+            color: #fff;
+            font-family: sans-serif;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: 0.2s ease;
+        }
+        
+        #login-form input[type="submit"]:hover,
+        #login-form input[type="submit"]:focus
+        {
+            background: #ff5722;
+            transition: 0.2s ease;
+        }
+        .right-box{
+        
+            position: absolute;
+            top: 0;
+            right: 0;
+            box-sizing: border-box;
+            padding: 40px;
+            width: 300px;
+            height: 400px;
+            background-image: url('./pshn.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .or 
+        {
+            position: absolute;
+            top: 180px;
+            left: 280px;
+            width: 40px;
+            height: 40px;
+            background: #efefef;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+            line-height: 40px;
+            text-align: center;
+        }
+        .right-box .signinwith
+        {
+            display: block;
+            margin-bottom: 40px;
+            font-size: 28px;
+            color: #000;
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        
+        button.social
+        {
+            margin-bottom: 20px;
+            width: 220px;
+            height: 36px;
+            border: none;
+            border-radius: 2px;
+            color: #fff;
+            font-family: sans-serif;
+            font-weight: 500;
+            transition: 0.2s ease;
+            cursor: pointer;
+        }
+        
+        .facebook
+        {
+            background: #32508e;
+        }
+        .twitter{
+            background: #55acee;
+        }
+        .google{
+        
+            background: #dd4b39;
+        }

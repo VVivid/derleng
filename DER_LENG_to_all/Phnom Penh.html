@@ -1,0 +1,320 @@
+<html>
+    <title>Phnom Penh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap"
+    rel="stylesheet"
+  />
+  <link href="https://fonts.googleapis.com/css?family=Dangrek|Finger+Paint|Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Concert+One|Merienda|Orbitron|Patrick+Hand|Poiret+One|Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <body>
+        <div class="top">
+          <h2 >Phnom &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penh</h2 >
+            <img src="./Der Leng.png" class="img" />
+        
+          </div>
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="icon">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                  </div>
+                  <div class="name"><span data-text="Home">Home</span></div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icon">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                  </div>
+                  <div class="name"><span data-text="Destination">Destination</span></div>
+                  
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icon">
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                  </div>
+                  <div class="name"><span data-text="Food">Food</span></div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icon">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                  </div>
+                  <div class="name"><span data-text="Booking">Booking</span></div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icon">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  </div>
+                  <div class="name"><span data-text="Store">Store</span></div>
+                </a>
+              </li>
+            </ul>
+            </div>
+            <div class="w3-content w3-display-container" style="max-width:1920px">
+              <h1>Most Favorites of The Week</h1>
+              <img class="mySlides" src="./pexels-photo-1070981.jpeg" style="width:100%" />
+              <img class="mySlides" src="./pexels-photo-730256.jpeg" style="width:100%" />
+              <img class="mySlides" src="./toa-heftiba-0WAJhFK7Q9o-unsplash-880x470-c.jpg" style="width:100%" />
+              <div
+                class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                style="width:100%"
+              >
+                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">
+                  &#10094;
+                </div>
+                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
+                  &#10095;
+                </div>
+                <span
+                  class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                  onclick="currentDiv(1)"
+                ></span>
+                <span
+                  class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                  onclick="currentDiv(2)"
+                ></span>
+                <span
+                  class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                  onclick="currentDiv(3)"
+                ></span>
+              </div>
+            </div>
+    </body>
+</html>
+<style>
+    body {
+      background: rgba(225, 165, 0, 0.4);
+      position: relative;
+    }
+    .top {
+      z-index: 3;
+      width: 100%;
+      height: 120px;
+      background: url(./frame.jpg);
+      margin-bottom: 0px;
+    }
+    .img {
+      width: 100px;
+      margin-top: 0.5%;
+      margin-left: 48%;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .img:hover {
+      transform: scale(1.1);
+    }
+    .fa-user-circle-o {
+      position: relative;
+      font-size: 50px;
+      margin-left: 780px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .fa-user-circle-o:hover {
+      transform: scale(1.2);
+      color: tomato;
+    }
+    ul {
+      background: url(./frame.jpg);
+      font-size: 15px;
+      position: sticky;
+      top: 0px;
+      left: 0;
+      margin: 0;
+      padding: 5px 0;
+      display: flex;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      text-align: center;
+      display: inline-flex;
+    }
+    ul li {
+      list-style: none;
+      text-align: center;
+      display: block;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    ul li a {
+      text-decoration: none;
+      padding: 0px 149px;
+      display: block;
+    }
+    ul li:last-child {
+      border-right: none;
+    }
+    ul li a .icon {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      background:;
+      overflow: hidden;
+      margin: 0 auto 5px;
+    }
+    ul li a .icon .fa {
+      width: 100%;
+      height: 100%;
+      line-height: 50px;
+      font-size: 30px;
+      transition: 0.5s;
+      color: black;
+    }
+    ul li a .icon .fa:last-child
+    {
+      color: black;
+    }
+    ul li a:hover .icon .fa 
+    {
+      transform: translateY(-100%);
+    }
+    ul li a .name {
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: ;
+      position:relative;
+      height: 30px;
+      width: 100%;
+      display: block;
+      overflow: hidden;
+      color: black;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .name:hover {
+      transform: scale(1.2);
+      color: black;
+    }
+   
+    .top h2 {
+      margin-top: 0px;
+      margin-left: 10%;
+      font-family: 'Bowlby One SC', cursive;
+      letter-spacing: 50px;
+      font-size: 80px;
+      color: black;
+      /*text-shadow: 10px 0px 0px rgba(0, 0, 0, 0.1);*/
+      position: absolute;
+      background-image: url(toa-heftiba-0WAJhFK7Q9o-unsplash-880x470-c.jpg);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animate 30s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+          background-position: left 0px top 10px;
+        }
+        40% {
+          background-position: left 800px top 10px;
+        }
+      }
+    .mySlides {
+
+      height: 30vh; 
+      display: none;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    h1 {
+      position: absolute;
+      color: rgba(255,255,255,1);
+      left: 7%;
+      top: 25%;
+      font-size: 80px;
+      letter-spacing: 20px;
+      /*text-shadow: 5px 5px 5px goldenrod;*/
+      font-weight: bolder;
+      z-index: 3;
+      font-family: 'Montserrat', sans-serif;
+      
+      }
+      /*.top h2 {
+        position: absolute;
+        background-image: url(brand-in-color.jpg);
+        background-repeat: repeat-x;
+        -webkit-background-clip: text;
+        animation: animate 15s linear infinite;*/
+
+      }
+      
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+      cursor: pointer;
+    }
+
+    .w3-badge {
+      height: 13px;
+      width: 13px;
+      padding: 0;
+    }
+    </style>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function currentDiv(n) {
+        showDivs((slideIndex = n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-white";
+      }
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2500);
+      }
+    </script>
+
+    

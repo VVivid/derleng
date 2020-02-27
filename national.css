@@ -1,0 +1,45 @@
+.row1 {
+    position: absolute;
+    height: 800px;
+    margin-top: 230px ;
+    margin-left: 2.5%;
+    padding: 10px;
+    float: left;
+}
+
+.row1 .box1{
+    position: relative;
+    widows: 800px;
+    width: 1800px;
+    height: 600px;
+    background: #feb72b;;
+    float: left;
+    margin-right: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+.box1:hover{
+    transform: scale(1,1);}
+
+.box1 img {
+  width: 800px;
+  height: 600px;
+}
+.row1 h1 {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box1 p {
+    font-size: 27px;
+}
+.box1 span{
+    color: black;
+}

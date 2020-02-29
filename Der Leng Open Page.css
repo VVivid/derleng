@@ -6,10 +6,14 @@ Background-attachment
 shorthand syntax */
 body {
   background: url("./Der\ Leng\ Background\ Final.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 130vw 90vh;
+  /* background-repeat: no-repeat; */
   background-position: center;
-  background-attachment: ;
+  margin: 0;
+  padding: 0;
+  background-position-x: auto;
+  background-position-y: auto;
+
 }
 a {
   text-decoration: none;
@@ -34,7 +38,7 @@ div {
   font-family: "Finger Paint", cursive;
   font-size: 1.5rem;
   color: rgba(0, 0, 0, 0.7);
-  margin-top: 26%;
+  margin-top: 50vh;
   margin-right: -15%;
   border-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -72,8 +76,8 @@ div {
   height: 50px;
   background-color: rgba(0, 0, 0, 0);
   color: rgba(0, 0, 0, 0.7);
-  margin-top: 26%;
-  margin-left: 25%;
+  margin-top: 50vh;
+  margin-left: 20vw;
   border-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   cursor: pointer;

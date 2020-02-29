@@ -3,6 +3,10 @@
       position: relative;
       margin: auto;
     }
+    #top img{
+      position: relative;
+      text-align: center;
+    }
     #top i {
         cursor: pointer;
         animation-name: shake;
@@ -15,10 +19,10 @@
     .search {
 
       position: absolute;
-      z-index: 2;
-      margin-top: 100px;
-      left: 50%;
-      width: 500px;
+      z-index: 0;
+      margin-top: 7vh;
+      margin-left: 10%;
+      width: 2vw;
       transform: translate(-50%, -50%);
       font-weight: bold;
       font-family: "Indie Flower", cursive;
@@ -26,32 +30,39 @@
 
     .search input {
       position: relative;
-      display: inline-block;
-      font-size: 20px;
+      font-size: 2em;
+      padding: 1em;
       box-sizing: border-box;
       transition: 0.5s;
+      box-shadow: 4em;
+      align-self: start;
     }
     .search input[type="text"] {
       background: rgba(255, 229, 153, 0.7);
-      width: 340px;
-      height: 50px;
+      width: 80vw;
+      height: 3rem;
       border: none;
       outline: none;
-      padding: 0 25px;
-      border-radius: 25px 0 0 25px;
+      border-radius: 20px 20px 20px 20px;
       box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  
     }
+    /* .search input[type="text"] ::placeholder {
+      font: 3em sans-serif;
+    } */
     .search input[type="submit"] {
-      position: relative;
-      border-radius: 0 25px 25px 0;
-      width: 150px;
-      height: 50px;
+      top: 130%;
+      padding: 0;
+      left: 20vw;
+      width: 40vw;
+      position: absolute;
+      border-radius: 10px 10px 10px 10px;
       border: none;
       outline: none;
       cursor: pointer;
       background: #FFC107;
       color: #fff;
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
     }
     .search input[type="submit"]:hover {
       background: #FF5722;
@@ -85,8 +96,8 @@
     }
     .img {
       width: 100px;
-      margin-top: 0.5%;
-      margin-left: 48%;
+      margin-top: 0.5em;
+      margin-left: 39vw;
       cursor: pointer;
       transition: 0.5s;
     }
@@ -210,10 +221,14 @@
     #login-form input[type="submit"]:hover {
       background: #ff5722;
     }
-
+    .divthom{
+      position: relative;
+      top: 2em;
+    }
     .pp {
+      font-size: 10em;
       width: 90%;
-      top: 100px;
+      top: 110px;
       box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       margin: auto;
       background-color: rgba(225, 165, 0, 0.3);
@@ -639,10 +654,10 @@
       margin-top: 100px;
       color: white;
       text-align:right;
-      margin-right: 20px;
+      margin-right: 3rem;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-sr {
@@ -652,7 +667,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-btb {
@@ -662,7 +677,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-pshn {
@@ -672,7 +687,7 @@
       color: rgba(255, 255, 255);
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kp {
@@ -682,7 +697,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kt {
@@ -692,7 +707,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kpch {
@@ -702,7 +717,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kpc {
@@ -712,7 +727,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kps {
@@ -722,7 +737,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kpt {
@@ -732,7 +747,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kd {
@@ -742,7 +757,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kep {
@@ -752,7 +767,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-btmc {
@@ -762,7 +777,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-kk {
@@ -772,7 +787,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-pvh {
@@ -781,7 +796,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-ps {
@@ -791,7 +806,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-pv {
@@ -801,7 +816,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-svr {
@@ -811,7 +826,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-st {
@@ -821,7 +836,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-rtnkr {
@@ -831,7 +846,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-tk {
@@ -851,7 +866,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-rtnkr {
@@ -861,7 +876,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 100px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-tk {
@@ -871,7 +886,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-odmc {
@@ -881,7 +896,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-pl {
@@ -891,7 +906,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-tbk {
@@ -901,7 +916,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     #t-mdkr {
@@ -911,7 +926,7 @@
       color: white;
       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       font-family: "Pacifico", cursive;
-      font-size: 120px;
+      font-size: 4rem;
       cursor: pointer;
     }
     .buttom {

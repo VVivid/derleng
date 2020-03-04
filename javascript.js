@@ -111,6 +111,10 @@ function search(){
     location.href='http://127.0.0.1:5500/open2.html#t-tbk'
   }
 }
-
+function login()
+{
+  var usernameregister = getElementById("usernameregister").value;
+  var passwordregister = getElementById("usernameregister").value;
+}
 
 
